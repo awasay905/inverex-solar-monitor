@@ -1,0 +1,44 @@
+# --- Environment Variables ---
+# Never commit environment variables
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
